@@ -40,7 +40,15 @@ public class Email {
             if(character>=8 && upper >= 1 && lower >=1 && number >=1 && special >= 1)
             {
                 this.password = newPassword;
+                //System.out.println("Password changed successfully");
             }
+//            else{
+//                System.out.println("The New Passwrod Is Not Valid");
+//            }
         }
+//        else{
+//            System.out.println("The given password dose not match with current password");
+//        }
+
     }
 }
